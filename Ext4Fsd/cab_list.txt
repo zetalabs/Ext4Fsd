@@ -1,0 +1,3 @@
+Release\ext4fsd_dummy.inf
+Release\x64\ext4fsd.sys
+Release\x64\ext4fsd.pdb
