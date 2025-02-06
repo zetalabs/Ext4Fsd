@@ -3332,7 +3332,8 @@ static inline int ext3_get_dirent_data_len(struct ext3_dir_entry_2 *de)
     return dlen;
 }
 
-#if _MSC_VER > 1900
+// FIXME! #if _MSC_VER > 1900
+#if 0
 int _strnicmp(const char* str1, const char* str2, size_t count);
 #endif
 
