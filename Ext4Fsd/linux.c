@@ -982,8 +982,7 @@ void iput(struct inode *inode)
 // string functions from linux/lib/string.c
 //
 
-// FIXME! #if _MSC_VER > 1900
-#if 0
+#if _MSC_VER > 1900
 
 int _strnicmp(const char* str1, const char* str2, size_t count)
 {

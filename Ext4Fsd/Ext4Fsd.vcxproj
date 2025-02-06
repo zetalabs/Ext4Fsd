@@ -160,7 +160,7 @@
     <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
     <OutDir>$(SolutionDir)Ext4Fsd\$(ConfigurationName)\x86\</OutDir>
     <IntDir>$(ConfigurationName)\x86\</IntDir>
-    <TargetName>Ext4Fsd</TargetName>
+    <TargetName>Ext2Fsd</TargetName>
     <Inf2CatUseLocalTime>true</Inf2CatUseLocalTime>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -174,7 +174,7 @@
     <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
     <OutDir>$(SolutionDir)Ext4Fsd\$(ConfigurationName)\x64\</OutDir>
     <IntDir>$(ConfigurationName)\x64\</IntDir>
-    <TargetName>Ext4Fsd</TargetName>
+    <TargetName>Ext2Fsd</TargetName>
     <Inf2CatUseLocalTime>true</Inf2CatUseLocalTime>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
